@@ -1,0 +1,4 @@
+Subject-2 With ASCOS++ Rank = 0.25029610959245246
+Subject-1 With ASCOS++ Rank = 0.2502653653298493
+Subject-3 With ASCOS++ Rank = 0.25014856539280234
+Subject-40 With ASCOS++ Rank = 0.0375

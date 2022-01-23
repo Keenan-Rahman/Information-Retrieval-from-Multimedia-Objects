@@ -1,0 +1,48 @@
+The tasks from this project are split into four programs.
+To run any program utilize python 3.9.7 and run 'python fileName' where fileName is the name of the program
+
+
+
+Task 0 - task_0.py
+This task takes nothing as input and save the olivetta faces data fetched from scikit learn library to mongoDb server.
+
+
+
+Task 1 - task_1.py
+This task takes image id and model name as an input returns the results from requested model.
+
+Inputs:
+An integer indicating the image id. Id should be between 0-399
+A string containing the model name. Name should be color_moment, local_binary_pattern, histogram_of_oriented_gradients
+
+
+
+Task 2 - task_2.py
+This task takes folder name as input and for each image it applies all 3 feature descriptors and create a compiled result file for each of the image in folder.
+
+Inputs:
+A string containing the folder path. This folder should contain images of type PNG.
+
+
+
+Task 3 - task_3.py
+This task takes folder path, image id, model name and k-value as input and for each image it applies the requested feature descriptor and fetch k nearest images based on the descriptor output.
+
+Inputs:
+A string containing the folder path. This folder should contain images of type PNG.
+A string containing the iamge id. This image id is the name of the file with its extension.
+A string containing the model name. Name should be color_moment, local_binary_pattern, histogram_of_oriented_gradients.
+An integer indicating the k-value. Value of "k" should be less than k-1 files in the folder and greater than 0.
+
+
+
+Task 4 - task_4.py
+This task takes folder path, image id and k-value as input and for each image it applies the all the feature descriptors, combines the results of all descriptors by scaling them on a common scale and fetch k nearest images based on the scaling outp
+
+Inputs:
+A string containing the folder path. This folder should contain images of type PNG.
+A string containing the iamge id. This image id is the name of the file with its extension.
+An integer indicating the k-value. Value of "k" should be less than k-1 files in the folder and greater than 0.
+
+
+
